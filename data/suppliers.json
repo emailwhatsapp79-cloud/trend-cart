@@ -1,11 +1,453 @@
 {
  "_note": "Supplier listings used for product photos and fulfilment. Costs were read from AliExpress search results on 2026-10-27 (USD, before shipping). They may be new-shopper or sale prices, so confirm the real price, variant and shipping before ordering. CJ Dropshipping pages were behind a bot check and couldn't be read automatically.",
  "products": [
-  {"id":"seamless-bodysuit","supplier":"AliExpress","listing":"https://www.aliexpress.com/item/3256806984587889.html","title":"Seamless Shapewear Bodysuit Women Tummy Control Body Shaper","costUsd":3.44,"listPriceUsd":13.43},
-  {"id":"tummy-faja","supplier":"AliExpress","listing":"https://www.aliexpress.com/item/3256812781717290.html","title":"Postpartum Fajas Colombianas Tummy Control Shapewear Body Shaper","costUsd":23.89},
-  {"id":"waist-trainer","supplier":"AliExpress","listing":"https://www.aliexpress.com/item/3256811388658090.html","title":"Latex Waist Trainer Zipper Underbust Corset Hourglass Cincher","costUsd":16.82,"listPriceUsd":42.49},
-  {"id":"shaping-panties","supplier":"AliExpress","listing":"https://www.aliexpress.com/item/3256805491535636.html","title":"High Waist Tummy Control Shapewear Panties Butt Lifter","costUsd":null},
-  {"id":"magnetic-powerbank","supplier":"AliExpress","listing":"https://www.aliexpress.com/item/3256808566908844.html","title":"Magnetic Power Bank 10000mAh Wireless Charger 20W Fast Charging","costUsd":12.15,"listPriceUsd":46.77},
-  {"id":"jewelry-set","supplier":"AliExpress","listing":"https://www.aliexpress.com/item/3256807290459630.html","title":"4pcs Gold-color Necklace Earring Bracelet Set, Imitation Pearls","costUsd":2.34,"listPriceUsd":4.87}
+  {
+   "id": "seamless-bodysuit",
+   "supplier": "AliExpress",
+   "listing": "https://www.aliexpress.com/item/3256806984587889.html",
+   "title": "Seamless Shapewear Bodysuit Women Tummy Control Body Shaper",
+   "costUsd": 3.44,
+   "listPriceUsd": 13.43
+  },
+  {
+   "id": "tummy-faja",
+   "supplier": "AliExpress",
+   "listing": "https://www.aliexpress.com/item/3256812781717290.html",
+   "title": "Postpartum Fajas Colombianas Tummy Control Shapewear Body Shaper",
+   "costUsd": 23.89,
+   "priceNote": "Raised to $44.99 (cost $23.89)"
+  },
+  {
+   "id": "waist-trainer",
+   "supplier": "AliExpress",
+   "listing": "https://www.aliexpress.com/item/3256811388658090.html",
+   "title": "Latex Waist Trainer Zipper Underbust Corset Hourglass Cincher",
+   "costUsd": 16.82,
+   "listPriceUsd": 42.49,
+   "priceNote": "Raised to $36.99 (cost $16.82)"
+  },
+  {
+   "id": "shaping-panties",
+   "supplier": "AliExpress",
+   "listing": "https://www.aliexpress.com/item/3256805491535636.html",
+   "title": "High Waist Tummy Control Shapewear Panties Butt Lifter",
+   "costUsd": null
+  },
+  {
+   "id": "magnetic-powerbank",
+   "supplier": "AliExpress",
+   "listing": "https://www.aliexpress.com/item/3256808566908844.html",
+   "title": "Magnetic Power Bank 10000mAh Wireless Charger 20W Fast Charging",
+   "costUsd": 12.15,
+   "listPriceUsd": 46.77
+  },
+  {
+   "id": "jewelry-set",
+   "supplier": "AliExpress",
+   "listing": "https://www.aliexpress.com/item/3256807290459630.html",
+   "title": "4pcs Gold-color Necklace Earring Bracelet Set, Imitation Pearls",
+   "costUsd": 2.34,
+   "listPriceUsd": 4.87
+  },
+  {
+   "id": "cluster-lashes",
+   "supplier": "AliExpress",
+   "listing": "https://www.aliexpress.com/item/3256811843948422.html",
+   "title": "10Row 60D-120D 5D Fluffy Thick Lashes Clusters 10-18mmMix Wispy Individual Lashes Extensions Clusters DIY Makeup False Eyelashes",
+   "costUsd": 1.38,
+   "costNote": "Lowest option price shown in AliExpress search results on 2026-10-27; recheck on the listing before ordering (variant/promo prices vary)",
+   "estShippingUsd": 3,
+   "priceUsd": 12.99,
+   "estProfitUsd": 8.61,
+   "images": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/S8c3de9f55b3a4f488c80699f9b983934z.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S72cc8384b3c34a6c9011d6c7dd1d3e878.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Sdd040a72ebb84f4982778ca0641807143.jpg"
+   ]
+  },
+  {
+   "id": "magnetic-lashes",
+   "supplier": "AliExpress",
+   "listing": "https://www.aliexpress.com/item/3256808061842287.html",
+   "title": "Magnetic Eyelashes Handmade 3D Natural Magnetic False Eyelashes Reusable Magnetic Eyelashes Tweezers Set Wholesale",
+   "costUsd": 3.05,
+   "costNote": "Lowest option price shown in AliExpress search results on 2026-10-27; recheck on the listing before ordering (variant/promo prices vary)",
+   "estShippingUsd": 3,
+   "priceUsd": 14.99,
+   "estProfitUsd": 8.94,
+   "images": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/S2666eabc6d944034873064d3d0cfe65eB.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S23965576c109476f880f51588711c7bcD.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S2e934535f7b54cbb9c3831c0286033b4R.jpg"
+   ]
+  },
+  {
+   "id": "satin-bonnet",
+   "supplier": "AliExpress",
+   "listing": "https://www.aliexpress.com/item/3256807486516793.html",
+   "title": "Satin Bonnet Silk Bonnet Adjustable Bonne For Sleeping Hair Bonnet With Tie Band Bonnets For Women Men",
+   "costUsd": 1.22,
+   "costNote": "Lowest option price shown in AliExpress search results on 2026-10-27; recheck on the listing before ordering (variant/promo prices vary)",
+   "estShippingUsd": 3,
+   "priceUsd": 12.99,
+   "estProfitUsd": 8.77,
+   "images": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/Sfefaa37595c046b2b7340913df75b24dd.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S9ec3511d60d140c6ba081e4dab27288bD.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Sbb468b2066004b38891fd1cddad007278.jpg"
+   ]
+  },
+  {
+   "id": "heatless-curler",
+   "supplier": "AliExpress",
+   "listing": "https://www.aliexpress.com/item/3256811871710965.html",
+   "title": "Heatless Hair Curlers Curling Rod Headband No Heat Hair Rollers Lazy Curls with Hook Sleeping Soft Flexi Rod Hair Styling Tools 854 sold 4.9",
+   "costUsd": 6.59,
+   "costNote": "Lowest option price shown in AliExpress search results on 2026-10-27; recheck on the listing before ordering (variant/promo prices vary)",
+   "estShippingUsd": 3,
+   "priceUsd": 17.99,
+   "estProfitUsd": 8.4,
+   "images": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/Se237c97683bf4fc48acf4c2d827ac5c7f.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S3ec9d4b03fed4250bbe9516a68c69660v.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S0eab10fbec96483f8c3fda5ef77d63c3m.jpg"
+   ]
+  },
+  {
+   "id": "makeup-brushes",
+   "supplier": "AliExpress",
+   "listing": "https://www.aliexpress.com/item/3256813256193953.html",
+   "title": "`24Pcs Professional Makeup Brush Set Soft Fluffy Cosmetic Brushes Foundation Eyeshadow Blush Contour Complete Beauty Make Up Too",
+   "costUsd": 4.91,
+   "costNote": "Lowest option price shown in AliExpress search results on 2026-10-27; recheck on the listing before ordering (variant/promo prices vary)",
+   "estShippingUsd": 4,
+   "priceUsd": 16.99,
+   "estProfitUsd": 8.08,
+   "images": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/S00db92c898334b67ae4fe28ac2324ec4d.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S1005244fabf54de4b01e3e9b4039cd29F.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S5de32ee7a982438f80b144946d710c3fR.jpg"
+   ]
+  },
+  {
+   "id": "gua-sha-set",
+   "supplier": "AliExpress",
+   "listing": "https://www.aliexpress.com/item/3256807399562706.html",
+   "title": "304 Stainless Steel Facial Roller Metal Gua Sha Facial Tools Set Face Body Treatment Lymphatic Drainage, Facial Tension, Durable",
+   "costUsd": 9.13,
+   "costNote": "Lowest option price shown in AliExpress search results on 2026-10-27; recheck on the listing before ordering (variant/promo prices vary)",
+   "estShippingUsd": 4,
+   "priceUsd": 22.99,
+   "estProfitUsd": 9.86,
+   "images": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/S309ec074aa8c49a6a9c118e9e7233a29s.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S5b407401ce0f4c13ae3ac02cdb148dcef.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S8b738694095e4497b8e9e1df12469582E.jpg"
+   ]
+  },
+  {
+   "id": "hd-wig-cap",
+   "supplier": "AliExpress",
+   "listing": "https://www.aliexpress.com/item/3256810108085754.html",
+   "title": "4x5 HD Transparent Lace Wig Caps Set for Wearing Wigs Black Adjustable Wig Cap with Grip Band for Keeping Wigs in Place 6 sold",
+   "costUsd": 4.26,
+   "costNote": "Lowest option price shown in AliExpress search results on 2026-10-27; recheck on the listing before ordering (variant/promo prices vary)",
+   "estShippingUsd": 3,
+   "priceUsd": 15.99,
+   "estProfitUsd": 8.73,
+   "images": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/Sab3ce08c0c0a4b0c9cb1d1d63da45796c.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S6622288c311a4649867db2b98760b19dW.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Sc6103e089814456cb9df114a6b7d02a0p.png"
+   ]
+  },
+  {
+   "id": "claw-clips",
+   "supplier": "AliExpress",
+   "listing": "https://www.aliexpress.com/item/3256812913386111.html",
+   "title": "Claw Hair Clip 4pcs/set Elegant Square Small Hair Claw For Women Girls Sweet Hair Ornament Claw Clip Hair Clip Hairpin Fashion Hair Accessories",
+   "costUsd": 3.53,
+   "costNote": "Lowest option price shown in AliExpress search results on 2026-10-27; recheck on the listing before ordering (variant/promo prices vary)",
+   "estShippingUsd": 3,
+   "priceUsd": 14.99,
+   "estProfitUsd": 8.46,
+   "images": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/Sd437816c66a44cdc86e79a84b438b799J.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S4f958b91bfe14e3da6f4bd8ca6850882a.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S986e8c437eaa498092655dd07bc1cea7q.jpg"
+   ]
+  },
+  {
+   "id": "huggie-hoops",
+   "supplier": "AliExpress",
+   "listing": "https://www.aliexpress.com/item/3256808933752276.html",
+   "title": "Waterproof Gold Huggie Hoop Earrings Set for Women Men Hypoallergenic 14K Gold Plated Stack Cartilage Earrings Summer Jewelry Round for minimalist look 150 sold",
+   "costUsd": 2.49,
+   "costNote": "Lowest option price shown in AliExpress search results on 2026-10-27; recheck on the listing before ordering (variant/promo prices vary)",
+   "estShippingUsd": 3,
+   "priceUsd": 13.99,
+   "estProfitUsd": 8.5,
+   "images": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/S6f3bf69b547a4d85a469c63ebaab2a52P.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S85b0195cfc574a42af37842c060e023fC.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S35aaaad5f98343f2be09c3055aab3b6b9.jpg"
+   ]
+  },
+  {
+   "id": "sun-necklace",
+   "supplier": "AliExpress",
+   "listing": "https://www.aliexpress.com/item/3256809575052187.html",
+   "title": "Uworld Unique Designer 18K Gold Color Plated Stainless Steel White Rhinestone Sun Pendant Necklace Stackable Multi Layer Necklac Projects polished style 304 sol",
+   "costUsd": 1.44,
+   "costNote": "Lowest option price shown in AliExpress search results on 2026-10-27; recheck on the listing before ordering (variant/promo prices vary)",
+   "estShippingUsd": 3,
+   "priceUsd": 12.99,
+   "estProfitUsd": 8.55,
+   "images": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/S713dddaf428f4cedb42f11d80ff1458dB.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S78282a64922d44d0a0fa76aa95a14188T.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S24ef3762ed804d24a2f2db72ef85a45fg.jpg"
+   ]
+  },
+  {
+   "id": "crossbody-bag",
+   "supplier": "AliExpress",
+   "listing": "https://www.aliexpress.com/item/3256812237965952.html",
+   "title": "Women Crossbody Bag Small Square Bag Fashion Simple Crossbody Bags for Women Chain Bag Retro Women's Shoulder Bag Purses and Handbags Сумка Женская",
+   "costUsd": 16.36,
+   "costNote": "Lowest option price shown in AliExpress search results on 2026-10-27; recheck on the listing before ordering (variant/promo prices vary)",
+   "estShippingUsd": 5,
+   "priceUsd": 40.99,
+   "estProfitUsd": 19.63,
+   "images": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/S83d7206727684aeb932586704ac0db479.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S368b3d07f93a4c18b3629e2be36b5ad2c.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Se2ee43d5291d487ab86b01a4c697c34c9.jpg"
+   ]
+  },
+  {
+   "id": "phone-bag",
+   "supplier": "AliExpress",
+   "listing": "https://www.aliexpress.com/item/3256812990711343.html",
+   "title": "Women’s Small Crossbody Phone Bag, Stylish Plaid Cell Phone Purse with Adjustable Shoulder Strap, Lightweight Mini Shoulder Bag for Travel, Shopping, Daily Use ",
+   "costUsd": 9.12,
+   "costNote": "Lowest option price shown in AliExpress search results on 2026-10-27; recheck on the listing before ordering (variant/promo prices vary)",
+   "estShippingUsd": 4,
+   "priceUsd": 22.99,
+   "estProfitUsd": 9.87,
+   "images": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/Ac5aad9a66f4e4e50be767ec159aab115d.png",
+    "https://ae-pic-a1.aliexpress-media.com/kf/A0afc7874be714ac198cf05b504a5972dD.png",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Aed55444ebade4d2589eb2867fce66dd3C.png"
+   ]
+  },
+  {
+   "id": "phone-lanyard",
+   "supplier": "AliExpress",
+   "listing": "https://www.aliexpress.com/item/3256811603999527.html",
+   "title": "Phone Lanyard Crossbody Strap New Mobile Phone Lanyard Long Crossbody Adjustable Shoulder Strap for Men Women Outdoor Phone Case Hanging Rope Anti-Loss Subtle, ",
+   "costUsd": 3.57,
+   "costNote": "Lowest option price shown in AliExpress search results on 2026-10-27; recheck on the listing before ordering (variant/promo prices vary)",
+   "estShippingUsd": 3,
+   "priceUsd": 14.99,
+   "estProfitUsd": 8.42,
+   "images": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/S60ca7d15da8a47be90d69545112a1831s.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Sce2c1656427c420eb989cc88a204a817Z.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S5349deef610a44dea3786f319485d5dfr.jpg"
+   ]
+  },
+  {
+   "id": "ring-holder",
+   "supplier": "AliExpress",
+   "listing": "https://www.aliexpress.com/item/3256812072298547.html",
+   "title": "Universal Phone Metal Finger Ring Holder Folding Portable Buckle Back Sticker Finger Ring Stand for iPhone 17 16 Samsung Xiaomi 1K+ sold 4.9",
+   "costUsd": 1.81,
+   "costNote": "Lowest option price shown in AliExpress search results on 2026-10-27; recheck on the listing before ordering (variant/promo prices vary)",
+   "estShippingUsd": 3,
+   "priceUsd": 12.99,
+   "estProfitUsd": 8.18,
+   "images": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/Se81ed85f5b104677a55637de54f917ad0.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S0bb0624052d142ada57be775861a5e9c8.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S9031c79100204fb58adbb875d71a3e06p.jpg"
+   ]
+  },
+  {
+   "id": "selfie-tripod",
+   "supplier": "AliExpress",
+   "listing": "https://www.aliexpress.com/item/3256812099547062.html",
+   "title": "P15 Mini Portable Selfie Stick Tripod, 0.415m Extendable Bluetooth Phone Holder with Remote, Pocket Travel Vlog Stand for iPhone Aluminum · Smartphones 8 sold",
+   "costUsd": 7.94,
+   "costNote": "Lowest option price shown in AliExpress search results on 2026-10-27; recheck on the listing before ordering (variant/promo prices vary)",
+   "estShippingUsd": 4,
+   "priceUsd": 19.99,
+   "estProfitUsd": 8.05,
+   "images": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/Saa56fabb0304436e84113fc327a944cdD.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S0757ce844be84b45a7a47444869acea4N.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S5004626270af4e2fbf1f16ed95f4e6b0I.jpg"
+   ]
+  },
+  {
+   "id": "charging-cable-3in1",
+   "supplier": "AliExpress",
+   "listing": "https://www.aliexpress.com/item/3256813001094408.html",
+   "title": "3in 1 USB Fast Charging Cable Micro USB Type C Cable Data Cord for Samsung P50 Phone USB Charging Cable USB Type-A · 1.2 M 3 sold 1",
+   "costUsd": 3.31,
+   "costNote": "Lowest option price shown in AliExpress search results on 2026-10-27; recheck on the listing before ordering (variant/promo prices vary)",
+   "estShippingUsd": 3,
+   "priceUsd": 14.99,
+   "estProfitUsd": 8.68,
+   "images": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/S29c76a706ce3488bab195c8eaee80486q.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Se7dfc74f8a064425a24cf1ccaac80cd2H.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S096d7bf5e6c840abaf091d716e245cffS.jpg"
+   ]
+  },
+  {
+   "id": "milk-frother",
+   "supplier": "AliExpress",
+   "listing": "https://www.aliexpress.com/item/3256807464852431.html",
+   "title": "Electric Milk Frother Handheld HOT Electric Milk Frother + Egg Beater Wireless Type-C Charging 3 Speeds Mini Handheld Foam Maker Coffee Whisk Cooking Tools",
+   "costUsd": 2.27,
+   "costNote": "Lowest option price shown in AliExpress search results on 2026-10-27; recheck on the listing before ordering (variant/promo prices vary)",
+   "estShippingUsd": 4,
+   "priceUsd": 14.99,
+   "estProfitUsd": 8.72,
+   "images": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/Sc7377ac0a10646fd836240c6b1ded791z.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S33143c84ebdf4e2691ce00096021e94bs.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S715ee163be1f4322b9ab831fb2ee3d78D.jpg"
+   ]
+  },
+  {
+   "id": "silicone-utensils",
+   "supplier": "AliExpress",
+   "listing": "https://www.aliexpress.com/item/3256812938718853.html",
+   "title": "Silicone Kitchen Utensils Set Silicone Cooking Utensils Set 12-Piece Heat Resistant Wooden Handle Silicone Utensils Set with Kitchen Storage Holder Must Have 20",
+   "costUsd": 14.12,
+   "costNote": "Lowest option price shown in AliExpress search results on 2026-10-27; recheck on the listing before ordering (variant/promo prices vary)",
+   "estShippingUsd": 5,
+   "priceUsd": 35.99,
+   "estProfitUsd": 16.87,
+   "images": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/A7e5ded42588a474da0746ba6efb2b176P.png",
+    "https://ae-pic-a1.aliexpress-media.com/kf/A3ccf49bbbe6e49578ea036678d093a51I.png",
+    "https://ae-pic-a1.aliexpress-media.com/kf/A1d49d1d0d1124d1da383f95e8edb7cf4o.png"
+   ]
+  },
+  {
+   "id": "rotary-chopper",
+   "supplier": "AliExpress",
+   "listing": "https://www.aliexpress.com/item/3256813200904816.html",
+   "title": "500/900ML Manual Meat Vegetable Chopper, Rotating Garlic Onion Cutter, Multifunctional Kitchen Prep Gadget",
+   "costUsd": 3.92,
+   "costNote": "Lowest option price shown in AliExpress search results on 2026-10-27; recheck on the listing before ordering (variant/promo prices vary)",
+   "estShippingUsd": 4,
+   "priceUsd": 15.99,
+   "estProfitUsd": 8.07,
+   "images": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/S0a322129196441c5a04d14db764a02cdn.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S9616a990eacf4a4ebdf5b96f8feaba4ae.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S3ff4953feb1242c4880be9729ff93d8f6.jpg"
+   ]
+  },
+  {
+   "id": "ice-tray-lid",
+   "supplier": "AliExpress",
+   "listing": "https://www.aliexpress.com/item/3256806809949096.html",
+   "title": "With Lid / No Lid 24-Hole Silicone Ice Tray Square Box Auxiliary Food Puree Cheese Jelly Mold Bar Kitchen Tool Cocktail Cube",
+   "costUsd": 3.12,
+   "costNote": "Lowest option price shown in AliExpress search results on 2026-10-27; recheck on the listing before ordering (variant/promo prices vary)",
+   "estShippingUsd": 4,
+   "priceUsd": 15.99,
+   "estProfitUsd": 8.87,
+   "images": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/S6528d1344c4c449aa33534e56e842079o.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S8f5f9d95d0c048beab06f862803d1564L.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Se20ee9784307468fbedf71742172dedbn.jpg"
+   ]
+  },
+  {
+   "id": "butt-lifter-shorts",
+   "supplier": "AliExpress",
+   "listing": "https://www.aliexpress.com/item/3256807878641366.html",
+   "title": "Butt Lifter Shorts Shapewear Women Hip Enhancer Shapewear Fake Booty Butt Pad Underwear High Waist Body Shaper Padded Panties Butt Lifter Shorts Comfortable Cur",
+   "costUsd": 4.27,
+   "costNote": "Lowest option price shown in AliExpress search results on 2026-10-27; recheck on the listing before ordering (variant/promo prices vary)",
+   "estShippingUsd": 4,
+   "priceUsd": 16.99,
+   "estProfitUsd": 8.72,
+   "images": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/S49e7146b13f448babcb054bf93a6b178d.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Sa3e20a64558f4121903975d5b0e2c295g.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Sdf19570ea520427dbbcdd2c606705756z.jpg"
+   ]
+  },
+  {
+   "id": "faja-shorts",
+   "supplier": "AliExpress",
+   "listing": "https://www.aliexpress.com/item/3256812807664581.html",
+   "title": "Women's Fajas Colombianas with Size Zipper High Waisted Butt Lifting Shorts with Removeable Straps, Postpartum Shapewear Body Shaper Wire-free, smooth comfort 9",
+   "costUsd": 10.45,
+   "costNote": "Lowest option price shown in AliExpress search results on 2026-10-27; recheck on the listing before ordering (variant/promo prices vary)",
+   "estShippingUsd": 5,
+   "priceUsd": 26.99,
+   "estProfitUsd": 11.54,
+   "images": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/Acdb921a08de64d8da1e9d888c4969b4eR.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/A4dd434e1860540da946fb32c9c596877U.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Aa71fb4887ada4a63a7401cc96b34e988h.jpg"
+   ]
+  },
+  {
+   "id": "satin-pajamas",
+   "supplier": "AliExpress",
+   "listing": "https://www.aliexpress.com/item/3256807449974419.html",
+   "title": "Women's Smooth Satin Pajamas V-Neck T-Shirt Ruffled Edges And Bow Shorts Simple And Breathable Pajama Set Sling Home Clothing V-Neck · Polyester · Shorts · Funn",
+   "costUsd": 5.95,
+   "costNote": "Lowest option price shown in AliExpress search results on 2026-10-27; recheck on the listing before ordering (variant/promo prices vary)",
+   "estShippingUsd": 4,
+   "priceUsd": 17.99,
+   "estProfitUsd": 8.04,
+   "images": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/S43423b07a4b64eb4baa7a8025f0abf3fz.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Sb131e08400274dd3b29db9cd6bebdda6u.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Sbd34e052adb448c78963a807b78f0d57K.jpg"
+   ]
+  },
+  {
+   "id": "midi-dress",
+   "supplier": "AliExpress",
+   "listing": "https://www.aliexpress.com/item/3256812854155745.html",
+   "title": "Women V-Neck Cape Sleeve Midi Dress Split Bodycon Elegant Evening Party Wedding Guest Dresses Party · Polyester · Solid · V-neck · Polyester 96 sold 4.9",
+   "costUsd": 9.47,
+   "costNote": "Lowest option price shown in AliExpress search results on 2026-10-27; recheck on the listing before ordering (variant/promo prices vary)",
+   "estShippingUsd": 5,
+   "priceUsd": 23.99,
+   "estProfitUsd": 9.52,
+   "images": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/S5db17dd5c903464c9650d55ff66cb7a5X.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S4a99bf0ec7ad4368ac588f0b15c0750fg.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S7a1676c282c3459483d0b54b7bd1d1c86.jpg"
+   ]
+  },
+  {
+   "id": "glitter-dress",
+   "supplier": "AliExpress",
+   "listing": "https://www.aliexpress.com/item/3256812772859180.html",
+   "title": "Women Black Glitter Bodycon Mini Dress Lace Crew Neck Sheer Cape Sleeve Slim Party Club Evening Cocktail Short Dress Party · Polyester · O-Neck · Polyester · So",
+   "costUsd": 5.66,
+   "costNote": "Lowest option price shown in AliExpress search results on 2026-10-27; recheck on the listing before ordering (variant/promo prices vary)",
+   "estShippingUsd": 4,
+   "priceUsd": 17.99,
+   "estProfitUsd": 8.33,
+   "images": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/Sfb549e422e63458dbbb37878a9c397daV.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Sd221f1cd85af44a3be8bd0b36c960abcf.png",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S8f2c1e16f5214d1a9fc2f4cca5bef774C.jpg"
+   ]
+  }
  ]
 }

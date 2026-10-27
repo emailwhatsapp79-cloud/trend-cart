@@ -2,7 +2,8 @@
 const fs = require("fs"), path = require("path");
 const out = path.join(__dirname, "..", "public", "products");
 fs.mkdirSync(out, { recursive: true });
-for (const line of fs.readFileSync(path.join(__dirname, "..", "assets", "images.txt"), "utf8").split("\n")) {
+const dir = path.join(__dirname, "..", "assets");
+for (const line of fs.readdirSync(dir).filter(f => /^images.*\.txt$/.test(f)).flatMap(f => fs.readFileSync(path.join(dir, f), "utf8").split("\n"))) {
   const [name, data] = line.trim().split(" "); if (name && data) fs.writeFileSync(path.join(out, name), Buffer.from(data, "base64"));
 }
 console.log("decoded images");
