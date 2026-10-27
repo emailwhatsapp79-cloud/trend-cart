@@ -1,0 +1,4 @@
+node_modules
+.next
+ADMIN_PASSWORD.txt
+.env*
