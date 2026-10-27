@@ -1,9 +1,12 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { products, byId, usd, ngn } from "../../../lib/products";
+import { products, byId, usd, ngn, CONTACT_EMAIL } from "../../../lib/products";
 import Add from "./Add";
 import Gallery from "./Gallery";
 import Trust from "../../Trust";
+import Row from "../../components/Row";
+import Recent, { TrackView } from "../../components/Recent";
+import { catBySlug } from "../../../lib/categories";
 export const generateStaticParams = () => products.map(p => ({ id: p.id }));
 export async function generateMetadata({ params }) {
   const p = byId((await params).id); if (!p) return {};
@@ -14,7 +17,7 @@ export default async function P({ params }) {
   const { id } = await params; const p = byId(id); if (!p) notFound();
   return (<div className="pd">
     <Gallery images={p.images} name={p.name}/>
-    <div className="info"><Link href={`/#${p.tag}`} className="eyebrow">{p.tag}</Link>
+    <div className="info"><TrackView id={p.id}/><Link href={`/category/${p.cat}`} className="eyebrow">{catBySlug(p.cat)?.name}</Link>
       <h1>{p.name}</h1>
       <div className="price big">{usd(p.price)} <span className="ngn">≈ {ngn(p.price)}</span></div>
       <p className="blurb">{p.blurb}</p>
@@ -25,5 +28,7 @@ export default async function P({ params }) {
       {p.chart && <details className="chart" open><summary>Size guide</summary>
         <table><thead><tr><th>Size</th><th>Waist</th><th>Hips</th><th>UK/NG dress</th></tr></thead><tbody>{p.sizes.map(s => { const r = CHART.find(x => x[0] === s); return r && <tr key={s}>{r.map(c => <td key={c}>{c}</td>)}</tr>; })}</tbody></table>
         <p className="ngn">This is a general guide; sizes can vary slightly by batch. Shapewear fits snugly, so if you're between sizes, choose the larger size.</p></details>}
-    </div></div>);
+      <p className="ask">Questions about this item? <a href={`mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent("Question: " + p.name)}`}>Email us</a></p>
+    </div>
+    <div className="full-row"><Row title="You may also like" href={`/category/${p.cat}`} items={products.filter(x => x.cat === p.cat && x.id !== p.id).slice(0, 10)}/><Recent exclude={p.id}/></div></div>);
 }

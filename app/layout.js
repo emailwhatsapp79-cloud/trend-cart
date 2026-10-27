@@ -2,6 +2,8 @@ import "./globals.css";
 import Link from "next/link";
 import CartCount from "./CartCount";
 import Logo from "./Logo";
+import SearchBar from "./components/SearchBar";
+import BottomNav from "./components/BottomNav";
 import { CONTACT_EMAIL } from "../lib/products";
 const SITE = "https://trend-cart-ruby.vercel.app";
 export const metadata = {
@@ -16,13 +18,14 @@ export default function L({ children }) {
   return (<html lang="en"><body>
     <div className="bar">Free worldwide shipping · Secure checkout with Paystack</div>
     <header><div className="wrap hd"><Link href="/" aria-label="Trend Cart home"><Logo/></Link>
-      <nav><Link href="/#shop">Shop</Link><Link href="/cart" className="cartlink" aria-label="Cart">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.7 13.4a2 2 0 0 0 2 1.6h9.7a2 2 0 0 0 2-1.6L23 6H6"/></svg><CartCount/></Link></nav></div></header>
+      <div className="hsearch"><SearchBar/></div><nav><Link href="/categories" className="dl">Categories</Link><Link href="/cart" className="cartlink" aria-label="Cart">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.7 13.4a2 2 0 0 0 2 1.6h9.7a2 2 0 0 0 2-1.6L23 6H6"/></svg><CartCount/></Link></nav></div><div className="wrap msearch"><SearchBar/></div></header>
     <main className="wrap">{children}</main>
     <footer><div className="wrap ft">
       <div><Logo/><p>Trending finds, shipped from our fulfilment partners straight to your door.</p></div>
-      <div><h4>Help</h4><Link href="/policies/shipping">Shipping</Link><Link href="/policies/refunds">Returns &amp; refunds</Link><Link href="/policies/contact">Contact us</Link></div>
+      <div><h4>Help</h4><Link href="/policies/shipping">Shipping</Link><Link href="/policies/refunds">Returns &amp; refunds</Link><Link href="/policies/contact">Contact us</Link><Link href="/categories">All categories</Link></div>
       <div><h4>Contact</h4><a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a><span>Secure payments by Paystack</span></div>
     </div><div className="wrap copy">© {new Date().getFullYear()} Trend Cart</div></footer>
+    <BottomNav/>
   </body></html>);
 }
